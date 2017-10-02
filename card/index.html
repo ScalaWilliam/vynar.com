@@ -16,6 +16,7 @@
     html, body {
         height:100%;
     }
+    
     body {
         font-family: 'Roboto Slab', serif;
         line-height:1.6;
@@ -25,10 +26,34 @@
         
         align-items:center;
         justify-content:center;
+        text-align: center;
     }
     
     main ul {
         font-size:1.3em;
+        list-style-type: none;
+        margin-left:0;
+        padding-left:0;
+    }
+    main ul li {
+        margin:auto;
+        padding:auto;
+    }
+    
+    #qrwrap {
+        display:flex;
+        justify-content: center;
+        
+    }
+    
+    #qrcode {
+        margin-left:auto;
+        margin-right:auto;
+    }
+    
+    img {
+        border-radius:0.3em;
+        max-height:128px;
     }
     
     </style>
@@ -44,19 +69,29 @@
         
         <h1>William Narmontas</h1>
             
+            
         <ul>
             <li><a href="tel:+6598645627">+65 9864 5627</a></li>
-            <li><a href="https://www.linkedin.com/in/scalawilliam">LinkedIn</a></li>
-            <li><a href="https://api.whatsapp.com/send?phone=6598645627">WhatsApp</a></li>
             <li><a href="mailto:me@vynar.com">me@vynar.com</a></li>
+            <li><a href="https://api.whatsapp.com/send?phone=6598645627">WhatsApp</a></li>
+            <li><a href="skype:eenccett">Skype: eenccett</a></li>
+        </ul>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/scalawilliam">LinkedIn</a></li>
             <li><a href="https://www.scalawilliam.com/">www.scalawilliam.com</a></li>
+            <li><a href="https://twitter.com/ScalaWilliam">@ScalaWilliam</a></li>
+            </ul>
+            <ul>
             <li>This page: <a href="http://vynar.com/card/">vynar.com/card/</a></li>
         </ul>
             
-        </main>
         
+            <div id="qrwrap">
+                
+            <img src="headshot-junefourteen.jpg"/>
             <div id="qrcode"></div>
-        
+        </div>
+        </main>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
         
         
