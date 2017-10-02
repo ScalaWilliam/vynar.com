@@ -1,0 +1,7 @@
+{
+  "short_name": "Card",
+  "name": "My Card",
+  "start_url": "/card/index.html",
+  "display": "standalone",
+  "orientation": "portrait"
+}
