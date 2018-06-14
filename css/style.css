@@ -171,4 +171,9 @@ p.inverse-heading {
 	 margin-top: 50px;
 }
 
+a {
+	 color: inherit;
+    font-size:1.6em;
+    display:block;
+}
 
